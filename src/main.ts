@@ -9,6 +9,8 @@ WA.onInit()
     bootstrapExtra()
       .then(() => {
         console.log('Scripting API Extra ready');
+        const iframes = document.querySelectorAll('iframe');
+        iframes.forEach((iframe) => (iframe.style.backgroundColor = 'white'));
       })
       .catch((e) => console.error(e));
   })
