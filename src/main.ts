@@ -14,7 +14,8 @@ WA.onInit()
         link.id = 'customIframeId';
         link.rel = 'stylesheet';
         link.type = 'text/css';
-        link.href = '../customCss.css';
+        link.href =
+          'https://raw.githubusercontent.com/thibaudnavarre/arcteryx-outside-map/master/customCss.css';
         link.media = 'all';
         head.appendChild(link);
       })
