@@ -5,33 +5,31 @@ import { bootstrapExtra } from '@workadventure/scripting-api-extra';
 // Waiting for the API to be ready
 WA.onInit()
   .then(() => {
+    if (
+      WA.room.id ===
+      'https://play.workadventu.re/_/0her91z7fqh/localhost:3000/arcteryx_internal.json'
+    ) {
+      WA.ui.openPopup(
+        'popupRectangle',
+        `Bienvenue chez ARC'TERIX Metashop !\n\n N'hésitez à vous rendre dans l'espace VIP localisé dans l'angle supérieur gauche de la boutique pour vous connecter à votre espace client.\n\n\nNous vous souhaitons un bon shopping !`,
+        [
+          {
+            label: 'Close',
+
+            className: 'primary',
+
+            callback: (popup) => {
+              // Close the popup when the "Close" button is pressed.
+
+              popup.close();
+            },
+          },
+        ]
+      );
+    }
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
     bootstrapExtra()
-      .then(() => {
-        console.log('Scripting API Extra ready');
-        const head = parent.document.getElementsByTagName('head')[0];
-        console.log('head');
-        console.log(head);
-        const htmlParent = head.parentElement;
-        console.log('htmlParent');
-        console.log(htmlParent);
-        const iframeParent = htmlParent && htmlParent.parentElement;
-        console.log('iframeParent');
-        console.log(iframeParent);
-        console.log('windowFrameElement');
-        console.log(window.frameElement);
-        console.log(window.parent);
-        console.log(window.top);
-        console.log(window.document);
-        const link = document.createElement('link');
-        link.id = 'customIframeId';
-        link.rel = 'stylesheet';
-        link.type = 'text/css';
-        link.href =
-          'https://thibaudnavarre.github.io/arcteryx-outside-map/customCss.css';
-        link.media = 'all';
-        head.appendChild(link);
-      })
+      .then(() => {})
       .catch((e) => console.error(e));
   })
   .catch((e) => console.error(e));
