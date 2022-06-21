@@ -6,8 +6,9 @@ import { bootstrapExtra } from '@workadventure/scripting-api-extra';
 WA.onInit()
   .then(() => {
     if (
-      WA.room.id ===
-      'https://play.workadventu.re/_/0her91z7fqh/localhost:3000/arcteryx_internal.json'
+      WA.room.mapURL === 'http://localhost:3000/arcteryx_internal.json' ||
+      WA.room.mapURL ===
+        'https://louisbrillet.github.io/arcteryx/arcteryx_internal.json'
     ) {
       WA.ui.openPopup(
         'popupRectangle',
