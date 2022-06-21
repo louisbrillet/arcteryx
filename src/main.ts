@@ -9,8 +9,14 @@ WA.onInit()
     bootstrapExtra()
       .then(() => {
         console.log('Scripting API Extra ready');
-        const iframes = document.querySelectorAll('iframe');
-        iframes.forEach((iframe) => (iframe.style.backgroundColor = 'white'));
+        var head = document.getElementsByTagName('head')[0];
+        var link = document.createElement('link');
+        link.id = 'customIframeId';
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = '../customCss.css';
+        link.media = 'all';
+        head.appendChild(link);
       })
       .catch((e) => console.error(e));
   })
