@@ -380,7 +380,7 @@
          "value":"src\/main.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.8.6",
+ "tiledversion":"1.8.4",
  "tileheight":32,
  "tilesets":[
         {
@@ -524,15 +524,15 @@
          "tilewidth":32
         }, 
         {
-         "columns":10,
+         "columns":12,
          "firstgid":2956,
          "image":"tilesets\/arcteryx.png",
-         "imageheight":352,
-         "imagewidth":320,
+         "imageheight":384,
+         "imagewidth":384,
          "margin":0,
          "name":"arcteryx",
          "spacing":0,
-         "tilecount":110,
+         "tilecount":144,
          "tileheight":32,
          "tiles":[
                 {
