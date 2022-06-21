@@ -1489,15 +1489,15 @@
          "tilewidth":32
         }, 
         {
-         "columns":12,
+         "columns":13,
          "firstgid":2956,
          "image":"tilesets\/arcteryx.png",
          "imageheight":416,
-         "imagewidth":384,
+         "imagewidth":416,
          "margin":0,
          "name":"arcteryx",
          "spacing":0,
-         "tilecount":156,
+         "tilecount":169,
          "tileheight":32,
          "tiles":[
                 {
