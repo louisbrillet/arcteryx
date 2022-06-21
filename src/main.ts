@@ -12,7 +12,7 @@ WA.onInit()
     ) {
       WA.ui.openPopup(
         'popupRectangle',
-        `Bienvenue chez ARC'TERIX Metashop !\n\n N'hésitez à vous rendre dans l'espace VIP localisé dans l'angle supérieur gauche de la boutique pour vous connecter à votre espace client.\n\n\nNous vous souhaitons un bon shopping !`,
+        `Bienvenue chez ARC'TERIX !\n\n N'hésitez à vous rendre dans l'espace VIP localisé dans l'angle supérieur gauche de la boutique pour vous connecter à votre espace client.\n\n\nNous vous souhaitons un bon shopping !`,
         [
           {
             label: 'Close',
