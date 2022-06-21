@@ -1230,15 +1230,15 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "height":61.4682388740966,
+                 "height":400,
                  "id":19,
                  "name":"popupRectangle",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":548.224800304298,
-                 "x":252.700646633701,
-                 "y":608.123494357804
+                 "width":730,
+                 "x":150,
+                 "y":210
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1345,7 +1345,7 @@
          "value":"src\/main.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.8.6",
+ "tiledversion":"1.8.4",
  "tileheight":32,
  "tilesets":[
         {
