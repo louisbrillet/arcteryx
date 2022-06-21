@@ -15,7 +15,7 @@ WA.onInit()
         link.rel = 'stylesheet';
         link.type = 'text/css';
         link.href =
-          'https://raw.githubusercontent.com/thibaudnavarre/arcteryx-outside-map/master/customCss.css';
+          'https://thibaudnavarre.github.io/arcteryx-outside-map/customCss.css';
         link.media = 'all';
         head.appendChild(link);
       })

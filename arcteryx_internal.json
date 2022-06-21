@@ -390,12 +390,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"arcteryxRedPants.html"
-                        }, 
-                        {
-                         "name":"openWebsiteAllowApi",
-                         "type":"bool",
-                         "value":true
+                         "value":"https:\/\/arcteryx.com\/shop\/mens\/gamma-lt-pant"
                         }, 
                         {
                          "name":"openWebsitePolicy",
